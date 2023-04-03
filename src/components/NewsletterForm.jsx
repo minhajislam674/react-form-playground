@@ -3,13 +3,6 @@ import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
 const NewsletterForm = () => {
-  //We pass our form’s initialValues and a submission function (onSubmit) to the useFormik() hook.
-  //The hook then returns to us a goodie bag of form state and helper methods in a variable we call formik.
-
-  // handleSubmit: A submission handler
-  // handleChange: A change handler to pass to each <input>, <select>, or <textarea>
-  // values: Our form’s current values
-
   return (
     <div className="form-container">
       <Formik
